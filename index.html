@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/59b162e155.js" crossorigin="anonymous"></script>
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main>
+        <!-- Seção de imagem -->
+        <section class="imagem-section">
+            <img src="./public/imagem/Login-img.png" alt="foto">
+        </section>
+        <!-- Seção de formulario -->
+         <section class="form-section">
+            <form action="#">
+                <h1>Login</h1>
+                <div class="input-field">
+                    <input type="text" name="username" id="usuário">
+                    <label for="usuário">Usuário</label>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                 <div class="input-field">
+                    <input type="password" name="pwd" id="pwd">
+                    <label for="pwd">Senha</label>
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <div class="input-options">
+                   <label for="RemenberMe" class="checkbox">
+                    <input type="checkbox" name="RemenberMe" id="RemenberMe">
+                    <span class="checkmark"></span>
+                    Lembrar me
+                   </label>
+                   <a href="#">Esqueceu a senha?</a>
+                </div>
+                <button type="submit">
+                    Entrar
+                </button>
+            </form>
+            <div class="login-with">
+                <div class="text">
+                    <div class="horizontal-line"></div>
+                    <span>Ou entrar com...</span>
+                </div>
+                <div class="google-login">
+                    <a href="#">
+                        <i class="fa-brands fa-google"></i>
+                        Login com Google
+                    </a>
+                </div>
+            </div>
+            <span class="register">Já tem uma conta? <a href="#">Registre-se</a></span>
+         </section>
+    </main>
+</body>
+</html>
