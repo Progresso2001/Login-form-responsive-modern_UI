@@ -101,15 +101,6 @@ form h1{
     font-weight: 400;
     cursor: pointer;
 }
-/* Icon */
-.input-field i{
-    position: absolute;
-    right: calc(30px + 15px);
-    top: 50%;
-    transform: translateY(-50%);
-    color: #98a6b4;
-    pointer-events: none;
-}
 /* label */
 .input-field label{
     position: absolute;
@@ -120,6 +111,16 @@ form h1{
     pointer-events: none;
     transition: .3s ease;
 }
+/* Icon */
+.input-field i{
+    position: absolute;
+    right: calc(30px + 15px);
+    top: 50%;
+    transform: translateY(-50%);
+    color: #98a6b4;
+    pointer-events: none;
+}
+
 input:hover{
     border: 1px solid transparent;
     outline: 2px solid #61881c;
@@ -243,7 +244,7 @@ button:focus{
 }
 .google-login a:focus .fa-google{
     background: linear-gradient(to bottom, 
-     #4285F4 0% 25%,
+    #4285F4 0% 25%,
     /* Azul */
     #EA4335 25% 50%,
     /* Rosa */
