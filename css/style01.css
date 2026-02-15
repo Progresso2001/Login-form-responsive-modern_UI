@@ -36,7 +36,7 @@ section#login div#imagem{
     display: block;
     background: #333 url(../public/imagem/Hand\ coding-amico.png) no-repeat;
     height: 200px;
-    background-position: center top;
+    background-position: top bottom;
     background-size: cover;
 }
 section#login div#form{
